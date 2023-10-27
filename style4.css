@@ -1,0 +1,46 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#main_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 203, 203);
+    padding: 20px;
+}
+.aboutGame{
+    margin: 2px 0px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#guess{
+    font-size: 35px;
+    font-weight: 200;
+    color: white;
+}
+#guessField{
+    height: 30px;
+    margin-bottom: 10px;
+}
+#subt{
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.newGame:hover{
+    cursor: pointer;
+    background-color: white;
+
+}

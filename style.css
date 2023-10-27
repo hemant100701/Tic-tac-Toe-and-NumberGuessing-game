@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(85, 83, 83);
+    color: white;
+}
+#main_Heading{
+    margin: 10px;
+}
+#main_container{
+    background-color: white;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 350px;
+    padding: 15px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    border: 2px solid black;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 90%;
+    margin: 2px;
+    border: 2px solid black;
+}
+.element{
+    color: blueviolet;
+}
+
+#newGame{
+background-color: cadetblue;
+}
+
+#btn{
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+#status{
+    color: yellow;
+    margin: 0px;
+}
